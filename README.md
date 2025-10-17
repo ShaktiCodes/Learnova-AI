@@ -92,21 +92,23 @@ Learnova-AI is a cutting-edge online education platform that leverages artificia
 
    **Server (.env)**
    ```env
-   PORT=5000
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
-   FIREBASE_CONFIG=your_firebase_config
-   RAZORPAY_KEY_ID=your_razorpay_key_id
-   RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-   GEMINI_API_KEY=your_gemini_api_key
-   CLIENT_URL=http://localhost:3000
+PORT = 8000
+MONGODB_URL = ""
+JWT_SECRET=""
+CLOUDINARY_CLOUD_NAME=""
+CLOUDINARY_API_KEY=""
+CLOUDINARY_API_SECRET=""
+EMAIL=""
+EMAIL_PASS = ""
+RAZORPAY_KEY_ID = ""
+RAZORPAY_SECRET = ""
+GEMINI_API_KEY = ""
    ```
 
    **Client (.env)**
    ```env
-   REACT_APP_API_URL=http://localhost:5000/api
-   REACT_APP_FIREBASE_CONFIG=your_firebase_config
-   REACT_APP_RAZORPAY_KEY_ID=your_razorpay_key_id
+VITE_FIREBASE_APIKEY = ""
+VITE_RAZORPAY_KEY_ID = ""
    ```
 
 4. **Run the application**
@@ -208,10 +210,7 @@ For support, email support@learnova-ai.com or join our Slack channel.
 
 ## 🔗 Links
 
-- [Live Demo](https://learnova-ai.vercel.app)
-- [Documentation](https://docs.learnova-ai.com)
-- [API Reference](https://api.learnova-ai.com/docs)
-
+- [Live Demo](https://learnova-ai-1.onrender.com)
 ---
 
 **Built with ❤️ using the MERN Stack**
