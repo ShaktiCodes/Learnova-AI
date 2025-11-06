@@ -16,7 +16,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://learnova-ai-1.onrender.com",
+    origin:"https://learnova-ai-2.onrender.com",
     credentials:true
 }))
 app.use("/api/auth", authRouter)
